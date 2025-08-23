@@ -2,10 +2,10 @@
 
 ## Abstract
 
-Service Oriented Architecture (SOA) is a modern way to design software where applications are built using independent, reusable services that
-communicate over a network. This approach helps businesses reuse existing software components and create flexible systems that can adapt to changing needs.
-SOA promotes loose coupling, meaning services work independently without affecting each other directly. It uses a find-bind-execute method where services 
-are registered, discovered, and then used by different applications.
+Service Oriented Architecture (SOA) is a way to build software by putting together small, separate pieces called services. These services do specific jobs and can talk to each other over a network.
+SOA helps companies reuse software parts they already have and easily change their systems when needed. The services don’t depend on each other too much, so one can work without messing up the others.
+It works like this: services are listed in a directory, then other programs find them, connect to them, and use what they do.
+So basically, SOA is about building flexible software from small, reusable parts that can work together smoothly.
 
 ## Introduction
 
@@ -14,8 +14,9 @@ These services work over a network, like the internet, and allow different parts
 
 ## What is a Service?
 
-* A service is the most basic building block in SOA. It performs a specific task or business function.
-* Over time, software development has evolved from simple programs to complex architectures, and SOA is the latest approach focusing on services.
+* A service is like a small worker in software that does one specific job.
+* Over time, software has gotten more complicated. Instead of one big program,developers now build lots of smaller services that work together. This way ofbuilding software is called Service-Oriented Architecture,
+  or SOA, and it focuses on connecting these small services to get bigger work done.
 
 ## When to use SOAP Services?
 
@@ -44,7 +45,6 @@ SOA improves how IT systems work daily:
 * Allows updates and replacements without disrupting everything.
 * Reduces maintenance cost and complexity.
 
-
 ## How SOA Works - Find, Bind, Execute
 
 * Services are registered in a public directory.
@@ -56,7 +56,6 @@ SOA improves how IT systems work daily:
 
 Web services help SOA by providing common standards and protocols (like XML, WSDL, SOAP).
 Java platforms provide tools to build and expose these services, allowing different systems to work together even if built with different technologies.
-
 
 ## Conclusion
 
